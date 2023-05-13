@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-ui/4.11.4/main.min.css" integrity="sha512-J39BrG1nkAaF/8jX9yS5Mu5odnB70pMWkrNM1mHegObKjE0IzMU/T2QszfAwGik1r9jMpyHXEF1GBtlT/C3VEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Roboto, Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #777;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .subheading {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .contact-icon {
+            margin-right: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img class="avatar" src="avatar.jpg" alt="Аватар" />
+        <div>
+            <div class="name">Ім'я Прізвище - Марина Слюсарчук</div>
+            <div class="title">Посада - Менеджер</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Освіта - Незакінчена вища</div>
+        <div class="subheading">Університет - Національний університет харчових технологій</div>
+        <div class="content">Назва спеціальності, рік закінчення - Менеджер управління персоналом, 2024 рік</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">
+            <div class="section-title">Досвід роботи - 2 роки </div>
+            <div class="subheading">Компанія - Кандія-Мед</div>
+            <div class="content">Посада, період роботи - Менеджер з адміністративних питань, 1 рік </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Навички</div>
+            <div class="content">
+                <ul>
+                    <li>Комунікабельність</li>
+                    <li>Windows</li>
+                    <li>Word / Excel</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Контакти</div>
+            <div class="content">
+                <div class="contact-item">
+                    <span class="material-icons contact-icon">email</span>
+                    maryna.sliusarchuk@gmail.com
+                </div>
+                <div class="contact-item">
+                    <span class="material-icons contact-icon">phone</span>
+                    +3805435436343
+                </div>
+                <div class="contact-item">
+                    <span class="material-icons contact-icon">location_on</span>
+                    Київ, Україна
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Резюме &copy; 2023 Слюсарчук Марина
+        </div>
+    </div>
+</body>
+</html>
